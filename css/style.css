@@ -1,0 +1,188 @@
+
+
+#checkbox_wrapper {
+    top: -10px;
+    right: -8px;
+    position: absolute;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+  height: 25px;
+  margin-right: 0px;
+  position: absolute;
+  opacity: 0;
+  width: 25px;
+  z-index: 2;
+
+}
+input[type=checkbox]:checked + .check_span {
+  background: #76B74E;
+  border: none;
+  padding: 5px;
+}
+input[type=checkbox]:checked + .check_span::before {
+  background-color: #F5F7F7;
+  height: 7px;
+  left: 7px;
+  top: 10px;
+  transform: rotate(-47deg);
+  -webkit-transform: rotate(-47deg);
+}
+input[type=checkbox]:checked + .check_span::after {
+  background-color: #F5F7F7;
+  height: 12px;
+  right: 9px;
+  top: 7px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+input[type=checkbox] + .check_span {
+  background: #fafafa;
+  border: 3px solid #BFBFBF;
+  border-radius: 50%;
+
+  cursor: pointer;
+  display: inline-block;
+  height:25px;
+
+  position:relative;
+  vertical-align: middle;
+  width: 25px;
+  transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+input[type=checkbox] + .check_span::before, input[type=checkbox] + .check_span::after {
+  background: none;
+  content: '';
+  display: block;
+  position: absolute;
+  width: 4px;
+  transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+input[type=checkbox] + .check_span::before {
+  height: 16px;
+  left: 5px;
+  top: 7px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+input[type=checkbox] + .check_span::after {
+  height: 16px;
+  right: 5px;
+  top: 7px;
+}
+
+/******************************************************************
+// for the nav menu top
+*******************************************************************/
+
+#wrapper {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+#header {
+  height: auto;
+  border: none;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  margin-top: 0px;
+  z-index: 1;
+  min-width: 700px;
+}
+
+#header_child {
+  padding: 5px  20px;
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+ min-width: 700px;
+}
+
+#allnotif_dd {
+  float: right;
+  height: auto;
+  margin-top: 0px;
+}
+
+
+.caucus_logo {
+  float: left;
+}
+
+.dropbtn, .dropbtnopt {
+  color: gray;
+  padding: 4px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+
+.dropbtnopt:hover, .dropbtnopt:focus {
+  color: black;
+}
+
+.dropdown, .dropdownopt {
+  margin-top: -60px;
+  display: inline-block;
+  float: right;
+
+}
+  .dropdown-contentopt {
+  display: none;
+  position: absolute;
+  background-color: #fafafa;
+  min-width: 125px;
+   border: 1px solid lightgray;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  top: 30px;
+  right: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fafafa;
+  min-width: 150px;
+  overflow: auto;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.24);
+
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 13.5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.dropdown-contentopt #deletemyquery{
+  border: none;
+  background: transparent;
+  display: block;
+  font-size: 14px;
+  font-family: Segoe UI;
+  padding: 6px 9px;
+  font-weight: 400;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown a:hover, .dropdown-contentopt #deletemyquery:hover {background-color:  #eee; text-decoration: none;}
+
+.show {display:block;}

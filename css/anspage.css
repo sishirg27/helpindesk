@@ -1,0 +1,186 @@
+/* ansScience.css*/
+
+label:hover{
+  background: #eee;
+  cursor: pointer;
+}
+
+ #wrap_all{
+   clear: both;
+   width: 1335px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 overflow: hidden;
+	 height: auto;
+ }
+
+#questiontxt{
+  height: auto;
+  overflow: hidden;
+  line-height: 30px;
+  font-family: calibri;
+  float: left;
+  width: 60%;
+  margin: 10px;
+  font-size: 24px;
+}
+
+#all_comm_sort{
+  height: auto;
+  overflow: hidden;
+  width: 37%;
+  float: right;
+  margin: 10px;
+
+}
+
+#diss_comm {
+    clear: both;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.reply, .cancel{
+  background-color: #eee;
+  padding: 3px 15px;
+  height: 30px;
+  border:  1px solid lightgray;
+  font-family: Segoe UI;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.24);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.reply:hover, .cancel:hover {
+  cursor: pointer;
+}
+
+#ans_reply{
+ background:#F5F5F5;
+  height: auto;
+  overflow:hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 10px 15px;
+  line-height: 25px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.24);
+  border:  1px solid lightgray;
+
+}
+
+#ans_reply #resolve_btn {
+   right: 25px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.24);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    background: green;
+}
+
+#ans_reply #resolve_btn span{
+  color: white;
+  margin-top: 5px;
+}
+
+#img_author{
+  float: left;
+  font-family: Segoe UI;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
+#img_author span {
+
+  color: blue;
+  font-size: 16px;
+  margin-left: 2px;
+  font-family: Calibri;
+}
+
+
+#auth_comm{
+  float: left;
+  width: 90%;
+  font-size: 16px;
+  font-family: Calibri light;
+  overflow: hidden;
+   margin-left: 10px;
+  margin-top: 0px;
+
+}
+
+
+
+#auth_comm p{
+  font-family: Segoe UI;
+  font-size: 14px;
+}
+
+#best_ans {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  background: #F3F7FF;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.24);
+  border:  1px solid lightgray;
+  padding: 10px 15px;
+}
+
+#diss_posts1 {
+  height: auto;
+  overflow: hidden;
+
+}
+
+/* *******
+CSS FOR THE textarea
+*************/
+#diss_comm #comm_img {
+   margin: 0 auto;
+   height: auto;
+   overflow: hidden;
+   max-width: 900px;
+   width: 900px;
+
+}
+
+#diss_comm img {
+  position: absolute;
+  left: 140px;
+  object-fit: cover;
+  border: 1px solid lightgray;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.24);
+}
+
+#diss_comm #comm_img #textcmt {
+  max-width: 50%;
+ padding: 5px 10px;
+ border: 1px solid lightgray;
+ font-family: Calibri light;
+ font-size: 16px;
+ margin-right: 20px;
+  resize: vertical;
+}
+
+  #comm_btns {
+  float: right;
+  height: auto;
+  overflow: hidden;
+  margin-right: 60px;
+   margin-top: 10px;
+}
+
+ #comm_btns {
+   display: none;
+}
+
+#txtContainer{
+  display: none;
+}

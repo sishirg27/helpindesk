@@ -1,0 +1,297 @@
+
+  /*css if there is no queries in science.php liked to everyscienceclass */
+
+label:hover{
+  background: #eee;
+  cursor: pointer;
+}
+
+  input[type="file"]{
+      color: transparent;
+  }
+
+  #nocaucus {
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 44px;
+    color: lightgray;
+    margin-top: 175px;
+    border: 1px solid lightgray;
+    padding: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+  .text_que{
+    margin-left: .3%;
+    width: 608px;
+    height: 40px;
+    padding: 5px 10px;
+    font-family: Calibri light;
+    margin-top: 0px;
+    font-size: 17px;
+    transition: all .3s ease;
+    outline: 0;
+  }
+
+
+  .question_submit{
+    background-color: #fafafa;
+    padding: -5px 5px;
+    height: 37px;
+    width:  5%;
+    border:  1px solid lightgray;
+    font-family: Segoe UI;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.1);
+    font-size: 17px;
+    font-weight: 400;
+
+  }
+
+  .question_submit:hover {
+    cursor: pointer;
+  }
+
+
+  #diss_text {
+    text-align: center;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #diss_text h2 {
+    font-family: Segoe UI;
+    font-weight: 100;
+  }
+
+  #cover {
+    text-align: center;
+
+  }
+
+  #cover_posts {
+    margin-top: 20px;
+    border: 1px solid #E0E0E0;
+    width: 660px; /* change the width of the whole box*/
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  }
+
+  #upImg{
+    max-width: 100%;
+    height: auto;
+    max-height: 95vh;
+    display: block;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  #best_ans{
+    background: #F3F7FF;
+    overflow: hidden;
+    height: auto;
+    padding: 5px 14px;
+  }
+
+  #best_ans #b_anstxt{
+    font-family: Calibri light;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  #img_author span{
+      color: blue;
+      font-size: 16px;
+      font-family: Calibri;
+      font-weight: 400;
+  }
+
+  #auth_comm {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-family: Segoe UI;
+  }
+
+  #diss_posts{
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    clear: both;
+    height: auto;
+    padding: 5px 13px 0px 10px;
+    background:white;
+  }
+
+
+  #diss_posts #question{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family:  'Segoe UI';
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+
+  }
+
+  #diss_posts #question a{
+    color: black;
+  }
+
+  #diss_posts #question a:hover{
+    color: lightgray;
+  }
+
+
+  #diss_posts a span {
+    font-size: 14px;
+    font-family: Calibri light;
+    color: blue;
+
+  }
+
+  #diss_posts a:hover {
+    color: lightgray;
+    text-decoration: none;
+    transition: .2s all;
+  }
+
+  #que_extra {
+    float: left;
+    font-size: 14px;
+    font-family: Calibri light;
+    color:gray;
+  }
+
+
+  #diss_posts textarea {
+    resize: none;
+  }
+
+  #diss_posts h2 p{
+    font-size: 11px;
+    font-weight: 100;
+  }
+
+
+
+  .cate {
+    font-family: Calibri light;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+
+  div.panel {
+    padding: 0 5px;
+    line-height: 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+  }
+
+  .accordion:hover{
+    cursor: pointer;
+  }
+
+
+
+  div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+  }
+
+  .panel a{
+    font-family: Calibri ;
+    font-weight: 100;
+    font-size: 16.5px;
+  }
+
+  #send_txtbox{
+    background: #F6F7F9;
+    padding: 7px 10px;
+  }
+
+
+  /**********************************************************
+  ************ TOPPERS *****************************************
+  ****************************************************************/
+  .wrapper_leaderboard {
+    height: auto;
+    width: 285px;
+    border: 1px solid white;
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    background: #fafafa;
+    margin-left: 40px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2), 0 1px 1px rgba(0,0,0,0.2);
+
+  }
+
+
+  .wrapper_leaderboard .sub_leaderboard {
+    height: auto;
+    overflow: hidden;
+    margin-top: -20px;
+
+  }
+
+  .wrapper_leaderboard .sub_leaderboard p{
+    font-family:Segoe UI;
+    font-size: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.1);
+    background: #847AD1;
+    color: white;
+    font-weight: 400;
+  }
+
+
+  .wrapper_leaderboard .cover_leaders{
+    width: 87%;
+    border: 1px solid lightgray;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+  }
+
+  .wrapper_leaderboard .leader_info{
+    float: left;
+
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .wrapper_leaderboard .leader_info a{
+    font-family: Segoe UI;
+    font-size: 15px;
+  }
+
+  #alignuser_img{
+    height: auto;
+    overflow: hidden;
+  }
+
+  #alignuser_img img {
+    float: left;
+    border: 1px solid lightgray;
+
+  }
+
+  #alignuser_img {
+    padding: 4px;
+  }
+
+  #alignuser_img a, #alignuser_img p{
+    height: auto;
+    overflow: hidden;
+    margin: 8px 8px;
+  }

@@ -1,0 +1,474 @@
+
+html,body {
+  margin: 0;
+  padding: 0;
+
+}
+
+/**************************************************************
+/****************** USER PROFILE ****************************/
+
+.all_wrap{
+  height: auto;
+  overflow: hidden;
+  width: 1325px;
+  padding: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user_profile {
+  height: auto;
+  width: 315px;
+  overflow: auto;
+  float: left;
+  margin-top: 0px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2), 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.user_profile .user_imginfo{
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+}
+
+.image-upload {
+ position: relative;
+ background: red;
+ margin-top: 0px;
+}
+
+.image-upload label {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+}
+.image-upload label span {
+  color: gray;
+  transition: all 0.5s ease;
+}
+.image-upload label span:hover{
+  color: black;
+  cursor: pointer;
+}
+
+#file
+{
+    display: none;
+}
+
+input[type="file"]{
+    color: transparent;
+}
+
+.user_profile .user_imginfo img{
+  border-radius: 100px;
+  height: 130px;
+  width: 130px;
+  border: 1px solid lightgray;
+  object-fit: cover;
+}
+
+.user_profile .user_imginfo p{
+  font-family: Segoe UI;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: black;
+}
+
+.user_profile .user_options{
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: -10px;
+}
+
+.answers, .queries, .rank{
+  float: left;
+  margin: 0px 9.5px;
+  text-align: center;
+}
+
+.user_profile .user_options p{
+  padding: 0 13px;
+  font-family: Segoe UI;
+  font-size: 1.18em;
+  font-weight: 400;
+}
+
+.user_profile .user_options p span {
+    font-size: 1.2em;
+    font-family: Segoe UI;
+     font-weight: 500;
+}
+
+.user_profile .add_options{
+  background: white;
+  height: auto;
+  overflow: hidden;
+}
+
+.user_profile .add_options a{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  overflow: hidden;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px 10px;
+ text-decoration: none;
+ color: black;
+}
+
+.user_profile .add_options a:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+/************************
+***** Css for the two different menus Caucuses and categories ***
+*************************/
+
+.wrap_box{
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  width: 930px;
+  float: right;
+  margin-right: 0px;
+ margin-top: 0px;
+
+}
+
+.style2 {
+  clear: both;
+  border: 1px solid lightgray;
+  width: 775px;
+  margin-top: -20px;
+  border-top: none;
+  min-height: 600px;
+  height: auto;
+}
+
+.wrap_box .container .nav{
+   font-family: Segoe UI;
+   font-size: 16px;
+}
+
+
+/******************************
+************* css for caucus_boxes [ORGANIZATION] ***********
+*******************************/
+.style2 .title {
+  clear: both;
+  overflow: hidden;
+  height:35px;
+  padding: 0px 15px;
+}
+
+.style2 .title p{
+  font-family: Segoe UI;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+
+.style2 .caucus_wrap {
+  margin-top: 5px;
+    overflow-x: auto;
+    margin-left: 25px;
+    height: 160px;
+    width: 830px;
+     white-space: nowrap;
+}
+
+
+/******************************
+************* css for COMMENT txtbox and REST comment box ***********
+*******************************/
+#total_numans {
+  margin: 5px 13px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Calibri light;
+}
+
+#total_numans img {
+  float: left;
+}
+
+#send #send_txtbox #comm_form{
+  height: auto;
+  overflow: hidden;
+  margin:0 auto;
+  display: inline-block;
+}
+
+ #send #send_txtbox #comm_form #text_que{
+   width: 88%;
+   outline: none;
+   font-size: 13.5px;
+   padding: 7px 7px;
+   border: 1px solid lightgray;
+   margin-top: 6px;
+   margin-left: 4px;
+ }
+
+ #send #send_txtbox #comm_form  #grab{
+   font-size: 14px;
+   border: none;
+   background: transparent;
+   color: gray;
+   clear: both;
+
+ }
+
+  #send #send_txtbox #comm_form  #grab img {
+     height: 30px;
+     width: 30px;
+     margin-top: -4px;
+     vertical-align: middle;
+  }
+
+  /******************************
+  ************* css for USER QUERIES PAGE ***********
+  *******************************/
+
+  #cover_posts {
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+  }
+
+  #diss_posts{
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    clear: both;
+    padding: 5px 13px 0px 10px;
+    background:white;
+  }
+
+
+  #diss_posts #question{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family:  'Segoe UI';
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+
+  }
+
+  #diss_posts #question a{
+    color: black;
+  }
+
+  #best_ans{
+    background: lightyellow;
+    overflow: hidden;
+    height: auto;
+    padding: 5px 14px;
+  }
+
+  #diss_posts #question a:hover{
+    color: lightgray;
+  }
+
+
+  #diss_posts a span {
+    font-size: 14px;
+    font-family: Calibri light;
+    color: blue;
+
+  }
+
+  #diss_posts a:hover {
+    color: lightgray;
+    text-decoration: none;
+    transition: .2s all;
+  }
+
+
+  #alignuser_img{
+    height: auto;
+    overflow: hidden;
+  }
+
+  #alignuser_img #comm_cover {
+    float: left;
+    border: 1px solid lightgray;
+
+  }
+
+  #alignuser_img {
+    padding: 4px;
+  }
+
+  #alignuser_img a, #alignuser_img p{
+    height: auto;
+    overflow: hidden;
+    margin: 8px 8px;
+
+  }
+
+  #que_extra {
+    font-size: 14px;
+    font-family: Calibri light;
+    color:gray;
+  }
+
+    #queries_stats{
+     margin-top: 15px;
+     padding: 0;
+      height:  500px;
+      overflow:hidden;
+      width: 300px;
+      float: left;
+      margin-left: 100px;
+       border-top: none;
+       background: white;
+       box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+    }
+
+    #queries_stats #subj{
+      text-align: center;
+       width: 100%;
+       background: #0271BC;
+       padding: 10px;
+       color: white;
+       font-weight: 600;
+       font-size: 20px;
+       font-family: Segoe UI;
+    }
+
+
+  .transfer{
+     font-weight: bold;
+     text-decoration: none;
+  }
+
+  .transfer1{
+    font-weight: lighter;
+    color: lightgray;
+    text-decoration: none;
+  }
+
+    .navLinks {
+      display: none;
+      width: 750px;
+    }
+
+    .navLinks #resQue{
+      font-family: Segoe UI;
+      font-weight: 400;
+      margin-left: 5px;
+      font-size: 14px;
+    }
+
+    .navLinks #resQue span{
+      font-family: Segoe UI;
+      font-size: 22px;
+      color: green;
+      text-align: left;
+
+    }
+
+    #loadmoreajaxloader{
+      text-align: center;
+      position: relative;
+    }
+
+    #noquery {
+      display: none;
+       margin-left: 200px;
+       width: 100%;
+       margin-top: 200px;
+       font-size: 28px;
+       color: gray;
+    }
+
+  /***************************
+  CSS FOR the user que Stats
+  *********************/
+  div.accordion{
+     background: transparent;
+     color: #444;
+     width: 100%;
+     border: none;
+     height: auto;
+     overflow: hidden;
+     text-align: left;
+     outline: none;
+    padding: 5px;
+     border-bottom: 1px solid lightgray;
+     line-height: 15px;
+
+  }
+
+div.accordion h3{
+  font-size: 22px;
+  font-family: Calibri;
+  margin: 15px 15px;
+  width: 25%;
+ font-weight: 400;
+  float: left;
+}
+
+div.accordion #nums{
+  width: 50%;
+  float: right;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 0px;
+
+}
+
+div.accordion #nums p{
+float: right;
+width: 20%;
+margin-top: 5px;
+font-size: 20px;
+font-family: Calibri;
+margin-right: 25px;
+}
+
+
+div.accordion #nums p span{
+font-size: 12px;
+font-family: Segoe UI;
+}
+
+
+
+  /*******************************
+  **CSS for the toggle link between Public Queries and Private Queries
+  *******************************/
+
+.wrap_box .container .nav li .pubQue, .wrap_box .container .nav li .priQue {
+margin: 5px;
+padding: 8px ;
+font-size: 1.4em;
+font-family: Segoe UI;
+font-weight: 500;
+background: transparent;
+}
+
+.wrap_box .container .nav li .pubQue {
+border: none;
+border-bottom: 3px solid blue;
+}
+
+
+.wrap_box .container .nav li .priQue {
+border: none;
+border-bottom: 3px solid lightgray;
+}

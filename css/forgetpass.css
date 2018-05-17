@@ -1,0 +1,50 @@
+.cover_resetPass {
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+
+.cover_resetPass .wrap_resetPass{
+   height: auto;
+   overflow: hidden;
+   display: inline;
+
+   width: 80%;
+}
+
+.cover_resetPass .wrap_head{
+  height: 50px;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+.cover_resetPass .wrap_resetPass h2{
+  margin-top: 10px;
+
+  font-family: Segoe UI;
+  display: inline-block;
+}
+
+.cover_resetPass .wrap_resetPass span{
+  display: inline-block;
+  margin-top: -20px;
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+.cover_resetPass .wrap_resetPass #Cautxt{
+  display: inline-block;
+  font-family: Calibri;
+  margin-top: -20px;
+  font-size: 22px;
+  margin-left: 10px;
+
+}
+
+.wrap_Msg{
+  margin: 20px;
+  font-family: Calibri;
+}

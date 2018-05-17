@@ -1,0 +1,67 @@
+.cate {
+  width: 130px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.1);
+
+ float: left;
+ height: auto;
+ overflow: visible;
+ margin-top: 10px;
+}
+
+.cate:hover{
+ cursor: pointer;
+}
+
+.cate .cau_cate {
+
+ position: relative;
+  width: 100%;
+  border: 1px solid lightgray;
+   height: 116px;
+  text-align: center;
+
+}
+
+.cate .cau_cate p {
+ margin-top: 0px;
+ height: 30px;
+ padding: 2px 5px;
+ font-family:  Segoe UI;
+ font-size: 18px;
+ font-weight: 400;
+ color: white;
+}
+
+.cate .cau_cate img {
+  height: 45px;
+  width: 65px;
+  margin-top: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#btn_clicked{
+ position: absolute;
+ right: -10px;
+ top: -10px;
+ height: 27px;
+ width: 27px;
+ border-radius: 100px;
+ background: #23AE23;
+ border: none;
+ outline: none;
+
+}
+
+#btn{
+ position: absolute;
+ right: -10px;
+ top: -10px;
+ height: 27px;
+ width: 27px;
+ border-radius: 100px;
+ border: 3px solid lightgray;
+ background: white;
+ outline: none;
+}

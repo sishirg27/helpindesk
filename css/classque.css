@@ -1,0 +1,41 @@
+/*** query Textbox **/
+
+#wrapper{
+  background: #fafafa;
+  height: auto;
+  overflow: hidden;
+  margin-top: -25px;
+  position: relative;
+}
+
+#wrap_small {
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#wrap_small #cover {
+  width: 200px;
+  height: auto;
+  margin-right: 60px;
+  margin-top: 20px;
+  float: right;
+  overflow: hidden;
+}
+
+.text_que{
+  margin-left: .4%;
+  border-radius: 2px;
+  width: 605.5px;
+  height: 38px;
+  padding: 4px 10px;
+ border: 1px solid lightgray;
+  font-family: Calibri light;
+  box-shadow: inset 0 0px 0px #DDDED8;
+  margin-top: 0px;
+  font-size: 17px;
+  transition: all .3s ease;
+
+}

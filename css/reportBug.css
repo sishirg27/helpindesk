@@ -1,0 +1,77 @@
+/************
+******* ONLY FOR SISHIR START
+***************************/
+
+#ownerWrap {
+   float: left;
+ 
+   height: auto;
+   overflow: hidden;
+   padding: 10px 10px;
+   margin: 10px 10px;
+   text-align: left;
+   width: 450px;
+}
+
+/************
+******* ONLY FOR SISHIR END
+***************************/
+
+.wrapper{
+   height: auto;
+   overflow: hidden;
+   background: #eee;
+   width: 70%;
+   margin: 0 auto;
+   text-align: center;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.2), 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.wrapper h2{
+  color: gray;
+  font-family: Segoe UI;
+  font-size: 30px;
+  font-weight: 600px;
+}
+
+.form{
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form .btn{
+   background: #0078D7;
+   color: white;
+}
+
+.form .btn:hover{
+  color: white;
+  background: lightblue;
+}
+
+#thank_bug {
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+
+#resolve_btn {
+  border: none;
+  border-radius: 100px;
+  background: green;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+}
+
+#thank_bug a{
+  font-weight: 600;
+  font-family: Segoe UI;;
+  font-size: 18px;
+  text-decoration: none;
+}

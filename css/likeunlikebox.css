@@ -1,0 +1,51 @@
+/** Like Unlike box css **/
+
+
+#prelike{
+  padding: 0;
+  margin-top: -10px;
+
+}
+
+#prelike input{
+  outline: none;
+   color: gray;
+   border: none;
+   background-color: transparent;
+  font-size: 28px;
+  text-shadow: 1px 1px lightgray;
+   padding: 0;
+   margin: 0;
+}
+
+ #prelike input:hover{
+   cursor: pointer;
+ }
+
+#postlike {
+  padding: 0;
+  margin-top: -10px;
+}
+
+#postlike input{
+  outline: none;
+  color: gold;
+  border: none;
+  background-color: transparent;
+  font-size: 28px;
+  text-shadow: 1px 1px lightgray;
+  padding: 0;
+  margin: 0;
+}
+
+ #postlike input:hover {
+   cursor: pointer;
+ }
+
+#postlike:active{
+  border-color: none;
+}
+
+#prelike:active{
+  border-color: none;
+}
