@@ -1,5 +1,0 @@
-// Place your settings in this file to overwrite default and user settings.
-{
-    "editor.minimap.enabled": false,
-    "php.validate.executablePath": "c:/xampp/php/php.exe"
-}
